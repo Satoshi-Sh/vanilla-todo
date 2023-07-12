@@ -1,0 +1,38 @@
+body {
+    background-color: azure;
+}
+
+main {
+    text-align: center;
+}
+
+h1{font-size:3rem}
+
+.todoList{
+    padding:2rem;
+    border:black 2px solid;
+    width:80vw;
+    min-width:350px;
+    margin:3rem auto;
+    border-radius: 20px;;
+}
+
+.todo {
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top:5px;
+}
+
+.todo :last-child{
+    margin-left:auto;
+}
+
+.todo :last-child:hover{
+    transform:scale(1.1);
+    cursor:pointer
+}
+
+.crossed{
+    text-decoration: line-through;
+}
